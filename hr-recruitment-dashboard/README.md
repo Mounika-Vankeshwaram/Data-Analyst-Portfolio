@@ -1,1 +1,73 @@
+HR Recruitment Metrics Dashboard
+### Excel-Based Data Analytics Portfolio Project
 
+![Excel](https://img.shields.io/badge/Excel-Dashboard-217346?style=for-the-badge&logo=microsoftexcel)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Reporting-34A853?style=for-the-badge&logo=googlesheets)
+
+Project Overview
+
+This project builds a complete recruitment analytics dashboard in Microsoft Excel, tracking hiring pipeline performance across departments, sourcing channels, and weekly trends. The goal was to give HR teams clear visibility into where candidates drop off, how long hiring takes, and which channels produce the best results.
+
+**Domain:** Human Resources & Talent Acquisition  
+**Tools:** Microsoft Excel (Pivot Tables, Charts, Conditional Formatting)  
+**Dataset:** 50 candidate records | 14 columns | 2024 hiring data  
+
+Business Problem
+
+The HR team needed answers to:
+- How many candidates are in each stage of the hiring pipeline?
+- Which departments have the highest and lowest hiring rates?
+- Which sourcing channels (LinkedIn, Naukri, Referral etc.) produce the most hires?
+- What is the average time taken from application to hire?
+- Are there data quality issues causing reporting delays?
+
+Project Structure
+
+hr-recruitment-dashboard/
+│
+├── HR_Recruitment_Dashboard.xlsx   ← Main Excel workbook (4 sheets)
+├── README.md                       ← Project overview (this file)
+└── Data_Cleaning_Steps.md          ← Cleaning and validation log
+
+Excel Workbook — Sheet Guide
+
+
+| **Raw Data** | 50 candidate records with all hiring fields |
+| **KPI Summary** | Key metrics — hires, rejections, accept rate, avg days to hire |
+| **Weekly Report** | Week-by-week pipeline tracking (applications → hired) |
+| **Issue Log** | Data quality issues found, severity, action taken, and resolution status |
+
+KPIs Tracked
+| **Total Applications** | Total candidates who applied |
+| **Total Hired** | Candidates successfully onboarded |
+| **Total Rejected** | Candidates not selected at any stage |
+| **Avg Days to Hire** | Average time from application to joining |
+| **Offer Accept Rate (%)** | % of offers accepted out of offers sent |
+| **Application → Hire Rate (%)** | % of total applicants who were hired |
+Data Cleaning Performed
+
+- Removed duplicate candidate entries
+- Standardized department and status field naming
+- Flagged and resolved missing date entries
+- Corrected date sequence errors (Offer Date after Joining Date)
+- Documented all issues in the **Issue Log** sheet with severity and resolution status
+
+Key Insights
+
+- **Referral** sourcing channel had the highest hire-to-application conversion
+- **Engineering** department received the most applications across all weeks
+- **Average time to hire** ranged between 18–45 days depending on department
+- **Week 6–8** showed the highest application volume — suggesting a seasonal hiring spike
+- **2 high-severity data issues** were identified and resolved before final reporting
+
+Business Recommendation
+
+> Prioritise referral programs as a primary hiring channel given the high conversion rate.  
+> Set a target of ≤ 30 days time-to-hire across all departments and track weekly.  
+> Enforce mandatory field completion (source, salary, joining date) at point of data entry to reduce issues.
+
+Author
+
+**Mounika Vankeshwaram**  
+Aspiring Data Analyst | Hyderabad, India  
+mounikavankeshwaram@gmail.com
